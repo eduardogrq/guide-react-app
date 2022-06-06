@@ -5,11 +5,44 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
+
+// Proobs
+
+// const Li = ({ children, estado, casa, edad }) => {
+//   console.log(casa, edad)
+//   return (
+//     <li>{ children } {estado} tiene {edad} años de edad, ¿casa?: {casa === true ? 'Sí' : 'No'}</li>
+//   )
+// }
+
+// const X = () => 
+//   <ul>
+//     <Li estado={'Feliz'}
+//         casa={true}
+//         edad={24}
+//       >Chanchito
+//     </Li>
+//     <Li estado={'Triste'}
+//         casa={false}
+//         edad={14}
+//       >Chanchito
+//     </Li>
+//     <Li estado={'Emocionado'}
+//         casa={true}
+//         edad={16}
+//       >Chanchito
+//     </Li>
+//   </ul>
+
+// root.render(
+//   <X />
+// )
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
